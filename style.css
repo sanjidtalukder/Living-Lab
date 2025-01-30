@@ -41,7 +41,43 @@ width: 1031px;
  margin-right: auto;
     border: 2px dotted gray;
 }
+.services{
+    display:grid;
+    grid-template-columns: repeat(3,1);
+}
+.service{
+    width: 100%;
+    border-radius: 16px;
+    padding: 12px;
+background: rgb(239, 235, 227);
+}
+.service img{
+width: 150px;
+height: 150px;
+margin-left: auto;
+margin-right: auto;
+    border: 2px dotted gray;
+    border-radius: 100px;
 
+background: rgb(255, 255, 255);
+}
+.service h1{
+    color: rgb(17, 17, 17);
+font-family: Sora;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+
+text-align: center;
+}
+.service p{
+    color: rgb(17, 17, 17);
+font-family: Sora;
+font-size: 16px;
+font-weight: 300;
+line-height: 25px;
+text-align: center;
+}
 @media only screen and (max-width:1250px) {
     .ancore{
         display: block;
