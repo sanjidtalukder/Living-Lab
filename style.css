@@ -41,11 +41,12 @@ header{
     }
 
     25% {
-        color: yellow;
+      
+        color: rgb(17, 255, 0);
     }
 
     50% {
-        color: rgb(17, 255, 0);
+        color: orange;
     }
 
     100% {
