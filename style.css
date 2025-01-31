@@ -30,6 +30,28 @@ header{
 .fa-bars{
     display: none;
 }
+.text-green-700{
+    font-size: 36px;
+    font-weight: bold;
+    animation: gradientText 4s ease-in-out infinite;
+}
+@keyframes gradientText {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: rgb(17, 255, 0);
+    }
+
+    100% {
+        color: green;
+    }
+}
 .vegetbles{
 width: 1031px;
 
@@ -38,7 +60,6 @@ width: 1031px;
     width: 50%;
  margin-left: auto;
  margin-right: auto;
-    border: 1px dashed gray;
     transition: 1s;
     box-shadow: 0 10px 10px;
 }
