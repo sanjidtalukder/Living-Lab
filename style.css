@@ -50,14 +50,15 @@ width: 1031px;
     border-radius: 16px;
     padding: 12px;
 background: rgb(239, 235, 227);
+
 }
 .service img{
 width: 150px;
 height: 150px;
 margin-left: auto;
 margin-right: auto;
-    border: 2px dotted gray;
-    border-radius: 100px;
+    border: 1px dotted gray;
+    border-radius: 100%;
 
 background: rgb(255, 255, 255);
 }
@@ -103,6 +104,11 @@ text-align: center;
 .fa-star{
     color: orange;
 }
+.flexs{
+    display: flex;
+    justify-content: space-around;
+}
+
 .grids{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -118,6 +124,46 @@ text-align: center;
     flex-direction: row;
   
 }
+.dawat{
+    margin: 10px;
+    padding: 12px;
+    /* border: 1px dashed gray; */
+}
+.dawat img{
+    border: 1px dashed gray;
+}
+.btns{
+    padding: 12px;
+    background-color: #63B76D;
+    border-radius: 8px;
+    margin:12px;
+    color: white;
+}
+.dawat-img{
+    /* width: 370px; */
+    margin-top: 16px;
+    border: 1px dashed gray;
+}
+.dawat-img img{
+    /* width: 90%;
+    height: 300px; */
+    margin: 12px;
+    border: 1px dashed gray;
+}
+.dawats-img img{
+    width: 90%;
+    height: 300px;
+    margin: 12px;
+    border: 1px dashed gray;
+}
+.btned{
+    padding: 12px;
+    background-color: #2A4D97;
+    border-radius: 8px;
+    margin:12px;
+    color: white;
+}
+
 
 @media only screen and (max-width:1250px) {
     .ancore{
@@ -162,5 +208,11 @@ text-align: center;
         grid-template-columns: repeat(1,1fr);
         margin: 12px;
     }
+    .flexs{
+        display: flex;
+      flex-direction: column;
+        gap: 12px;
+    }
+    
 }
 
