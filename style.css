@@ -163,7 +163,27 @@ text-align: center;
     margin:12px;
     color: white;
 }
-
+.vegetable-busket{
+    display: flex;
+    justify-content: space-around;
+    background-color: #EFEBE3;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.busket{
+    margin: 12px;
+    padding: 12px;
+}
+.busket img{
+width: 350px;
+border: 1px dashed gray;
+}
+.subbtn{
+    background-color: #63B76D;
+    padding: 8px;
+    border-radius: 8px;
+}
 
 @media only screen and (max-width:1250px) {
     .ancore{
