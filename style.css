@@ -39,6 +39,11 @@ width: 1031px;
  margin-left: auto;
  margin-right: auto;
     border: 1px dashed gray;
+    transition: 1s;
+    box-shadow: 0 10px 10px;
+}
+.vegetables img:hover{
+    transform: perspective(40px) rotateX(2deg) translate(50px) ;
 }
 .services{
     display:grid;
