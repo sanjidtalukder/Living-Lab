@@ -78,6 +78,47 @@ font-weight: 300;
 line-height: 25px;
 text-align: center;
 }
+.text-green-700{
+    padding: 30px;
+}
+.card-body{
+    background-image: url('image/vegetable-offer.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin: 24px;
+    border-radius: 8px;
+    padding: 10px;
+  
+ 
+}
+.btn{
+    padding: 12px;
+    background-color: white;
+    border-radius: 8px;
+    margin:12px;
+    color: black;
+    
+}
+.fa-star{
+    color: orange;
+}
+.grids{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.bg-white{
+    display: flex;
+    padding: 18px;
+    gap: 6px;
+    margin: 10px;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+  
+}
+
 @media only screen and (max-width:1250px) {
     .ancore{
         display: block;
@@ -115,6 +156,11 @@ text-align: center;
         display: grid;
       grid-template-columns: repeat(1,1fr);
       margin: 10px;
+    }
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 12px;
     }
 }
 
