@@ -17,16 +17,15 @@ header{
 .ancore ul li a{
     color:#111111;
     font-family: Sora;
-font-size: 16px;
-
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 
 }
 .glass{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+   
 }
 .fa-bars{
     display: none;
@@ -85,19 +84,20 @@ text-align: center;
 .card-body{
     background-image: url('image/vegetable-offer.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom;
     background-size: contain;
     margin: 24px;
     border-radius: 8px;
-    padding: 10px;
+    padding: 8px;
   
  
 }
+
 .btn{
     padding: 12px;
     background-color: white;
     border-radius: 8px;
-    margin:12px;
+    margin:10px;
     color: black;
     
 }
@@ -119,11 +119,7 @@ text-align: center;
     gap: 6px;
     margin: 10px;
 }
-.grid{
-    display: flex;
-    flex-direction: row;
-  
-}
+
 .dawat{
     margin: 10px;
     padding: 12px;
@@ -215,7 +211,7 @@ border: 1px dashed gray;
     .vegetables img{
         width: 100%;
         margin-left: auto;
- margin-right: auto;
+        margin-right: auto;
           border: 2px dotted gray;
     }
     .grid{

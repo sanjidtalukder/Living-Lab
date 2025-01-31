@@ -20,13 +20,12 @@
       </style>
 </head>
 <body>
-  <!-- header sectin is start -->
+  <!-- header section is start -->
     <header>
-      <!-- nac section is start -->
+      <!-- nav section is start -->
       <nav class="flex justify-around sm:text-left">
         <div>
           <img src="image/logo-header.png" alt="">
-          
         </div>
 
         <div class="ancore">
@@ -37,13 +36,13 @@
           </ul>
         </div>
 
-        <div class="glass">
+        <div class="glass gap-x-6 ">
           <i class="fa-solid fa-magnifying-glass "></i>
           <i class="fa-solid fa-cart-shopping"></i>
-          <button class="border-2 border-green-500 rounded-lg p-3">Login</button>
-          <button class="bg-green-700 text-white rounded-lg p-5 w-16">Register</button>
+          <button class="border-2 border-green-500 rounded-lg p-2">Login</button>
+          <button class="bg-green-700 rounded-lg p-2">Register</button>
         </div>
-          <div class="fa-bars">  <i class="fa-solid fa-bars"></i></div>
+          <div class="fa-bars"><i class="fa-solid fa-bars"></i></div>
         </nav><br>
 
         <!-- nav section start here  -->
@@ -69,10 +68,10 @@
 
      <!-- main section start -->
     <main>
-      <section class="">
+      <section class="p-7">
         <h1 class="text-green-700 ml-12 font-bold text-2xl">Services</h1><br>
 
-        <div class="grid grid-cols-3 gap-2 container mx-3">
+        <div class="grid grid-cols-3 gap-2">
           <div class="service">
             <img  src="image/service.png" alt="">
           <h1>24/7 Services </h1>
@@ -103,15 +102,16 @@
         <div class="ml-7">
           <h1 class="text-green-700 font-bold text-2xl ml-6">Popular Products</h1>
         </div>
-        <div class="grid">
- 
+
+        <div class="lg:flex md:grid grid-cols-1">
             <div class="card-body bg-green-500/75 w-[300px]">
               <h2 class="card-title text-white font-bold text-2xl">30% off</h2>
               <p class="text-black font-sara font-medium">Discovere a world of treats,toys, and<br>
               essentials handpicked for</p>
-              <div class="card-actions justify-end">
+              <button class="btn hover:bg-[gray]">Buy Now</button>
+              <!-- <div class="card-actions justify-start">
                 <button class="btn font-bold">Buy Now</button>
-              </div>
+              </div> -->
             </div>
             <!-- card style here -->
             <div class="grids">
@@ -231,7 +231,7 @@
           <div class="bg-green-900 flex justify-between rounded-lg">
             <div class="dawat">
               <img src="image/dawat-logo.png" alt=""><br>
-              <button class="btns">Cook Exotic Dishes</button><br>
+              <button class="btns hover:bg-[gray]">Cook Exotic Dishes</button><br>
               <h1 class="text-white font-bold text-2xl ">UP to 20% OFF</h1>
             </div>
             <div class="dawat-img">
@@ -242,7 +242,7 @@
             <div class="bg-blue-900 flex justify-around rounded-lg">
               <div class="dawat">
                 <img src="image/india-gate-logo.png" alt=""><br>
-                <button class="btned">Cook Exotic Dishes</button><br>
+                <button class="btned hover:bg-[gray]">Cook Exotic Dishes</button><br>
                 <h1 class="text-white font-bold text-2xl ">UP to 40% OFF</h1>
               </div>
               <div class="dawats-img">
@@ -254,97 +254,71 @@
         </div>
 
       </section><br>
-      <section>
-        <div class="vegetable-busket">
-          <div class="busket">
-            <img src="image/vegetable-busket.png" alt="">
-          </div>
-          <div class="p-3 mt-6">
-            <h1 class="text-black font-bold text-2xl">Get Grocery News!</h1><br>
-            <h4 class="text-black font-bold text-1xl">Exclusive training tips, ticks, product deals and more.</h4><br>
-            <input
-  type="text"
-  placeholder="Enter email...."
-  class="input input-bordered border-black w-full max-w-xs" /><br><br>
-  
-  <button class="subbtn">Subscribe</button>
-          </div>
-        </div>
-      </section>
-
-
     </main><br>
     <!-- main section is end -->
      <!-- footer section is start -->
 
-  <footer class="footer bg-green-700 text-neutral-content p-10 align-bottom">
-  
-      <nav class="text">
-        <img src="image/logo-footer.png" alt="">
-        <p>Discover a world of treats, toys, and<br>
-           essentials handpicked for your furry<br>
-            friends</p>
-      </nav>
-      <nav class="align-bottom">
-        
-        <a class="link link-hover">Product</a>
-        <a class="link link-hover">Services</a>
-        <a class="link link-hover">Contact us</a>
-        
-      </nav>
-      <nav>
-        <h6 class="footer-title">Follow us</h6>
-        <div class="grid grid-flow-col gap-4">
-          <a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              class="fill-current">
-              <path
-                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-            </svg>
-          </a>
-          <a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              class="fill-current">
-              <path
-                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-            </svg>
-          </a>
-          <a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              class="fill-current">
-              <path
-                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-            </svg>
-          </a>
-  
-          <a>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="fill-current">
-                <path d="M12 2.2c-2.2 0-2.5.01-3.4.05-.9.04-1.5.2-2 .41-.5.22-.9.51-1.3.95-.4.4-.73.9-.95 1.3-.2.5-.38 1.12-.41 2-.04.9-.05 1.2-.05 3.4s.01 2.5.05 3.4c.04.9.2 1.5.41 2 .22.5.51.9.95 1.3.4.4.9.73 1.3.95.5.2 1.12.38 2 .41.9.04 1.2.05 3.4.05s2.5-.01 3.4-.05c.9-.04 1.5-.2 2-.41.5-.22.9-.51 1.3-.95.4-.4.73-.9.95-1.3.2-.5.38-1.12.41-2 .04-.9.05-1.2.05-3.4s-.01-2.5-.05-3.4c-.04-.9-.2-1.5-.41-2-.22-.5-.51-.9-.95-1.3-.4-.4-.9-.73-1.3-.95-.5-.2-1.12-.38-2-.41-.9-.04-1.2-.05-3.4-.05zm0-2.2c2.3 0 2.6.01 3.5.05 1.1.05 1.8.23 2.5.48.8.3 1.5.7 2.2 1.4.7.7 1.1 1.4 1.4 2.2.25.7.43 1.4.48 2.5.04.9.05 1.2.05 3.5s-.01 2.6-.05 3.5c-.05 1.1-.23 1.8-.48 2.5-.3.8-.7 1.5-1.4 2.2-.7.7-1.4 1.1-2.2 1.4-.7.25-1.4.43-2.5.48-.9.04-1.2.05-3.5.05s-2.6-.01-3.5-.05c-1.1-.05-1.8-.23-2.5-.48-.8-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.4-1.4-2.2-.25-.7-.43-1.4-.48-2.5-.04-.9-.05-1.2-.05-3.5s.01-2.6.05-3.5c.05-1.1.23-1.8.48-2.5.3-.8.7-1.5 1.4-2.2.7-.7 1.4-1.1 2.2-1.4.7-.25 1.4-.43 2.5-.48.9-.04 1.2-.05 3.5-.05zm0 5.8c-1.8 0-3.2 1.4-3.2 3.2s1.4 3.2 3.2 3.2 3.2-1.4 3.2-3.2-1.4-3.2-3.2-3.2zm0 1.6c.9 0 1.6.7 1.6 1.6s-.7 1.6-1.6 1.6-1.6-.7-1.6-1.6.7-1.6 1.6-1.6zm4.9-3.4c-.4 0-.8.3-.8.8s.3.8.8.8.8-.3.8-.8-.3-.8-.8-.8z"/>
-            </svg>
-        </a>
-        
+     <footer>
+
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 bg-[#EFEBE3] lg:container mx-auto rounded-lg relative  -mb-48 ">
+          <img class="m-3" src="image/vegetable-busket.png" alt="">
+          <div class="flex  items-center">
+            <div>
+              <h2 class="text-black font-bold">Get Grocery News!</h2><br>
+              <p class="text-black font-medium">Exclusive training tips, ticks, product deals and more.</p><br>
+              <input type="text" placeholder="Enter email...." class="input input-bordered w-full max-w-xs"/>
+              <br>
+              <button type="submit" class="btn  bg-green-700 hover:bg-[gray] text-white">
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
-      </nav>
   
   
-  </footer>
+        <div  class="bg-[#179800] text-white p-6">
+  
+          <div class="mt-52">
+  
+            <div class="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center">
+              <!-- Logo and Description -->
+              <div class="mb-4 md:mb-0">
+                <img src="image/logo-footer.png" alt="">
+                <p class="text-[16px] mt-2">
+                  Discover a world of treats, toys, and <br> 
+                  essentials handpicked for your furry <br> 
+                  friends
+                </p>
+              </div>
+          
+              <!-- Navigation Links -->
+              <div class="flex flex-col ">
+                <a href="#" class="hover:text-gray-300 text-[14px]">Product</a>
+                <a href="#" class="hover:text-gray-300">Services</a>
+                <a href="#" class="hover:text-gray-300">Contact us</a>
+              </div>
+          
+              <!-- Social Media Links -->
+              <div class="mt-4 md:mt-0">
+                <span class="block mb-2">Follow Us</span>
+                <div class="flex space-x-3">
+                  <a href="#" class="text-xl hover:text-gray-300"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#" class="text-xl hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="text-xl hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+                  <a href="#" class="text-xl hover:text-gray-300"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+
+            </div>
+  
+  
+          </div>
+  
+  
+        </div>
+      </div>
+    </footer>
 
      
              
