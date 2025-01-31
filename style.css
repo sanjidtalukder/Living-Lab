@@ -89,8 +89,6 @@ text-align: center;
     margin: 24px;
     border-radius: 8px;
     padding: 8px;
-  
- 
 }
 
 .btn{
@@ -216,7 +214,7 @@ border: 1px dashed gray;
     }
     .grid{
         display: grid;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(2,1fr);
       margin: 10px;
     }
     .grids{
